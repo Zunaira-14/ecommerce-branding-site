@@ -4,7 +4,7 @@ import axios from "axios";
 import { FaHeart } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addToWishlist } from "../features/cart/WishListSlice";
+import { addToWishlist } from "../features/cart/wishlistSlice.js";
 
 export default function WebListView() {
   const navigate = useNavigate();
