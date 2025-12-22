@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addToWishlist } from "../features/cart/WishListSlice";
+import { addToWishlist } from "../features/cart/wishlistSlice.js";
 import { addToCart } from "../features/cart/cartSlice"; // ✅ Import addToCart
 
 export default function WebListView() {
