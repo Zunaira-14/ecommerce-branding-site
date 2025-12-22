@@ -1,6 +1,6 @@
 
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home"; 
 import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import NavBar from "./components/NavBar";
@@ -27,7 +27,7 @@ function App() {
         <Route path="/login" elememt={<LoginModal/>}/>
         <Route path="/category/:categoryName" element={<Category />} />
         <Route path="/cart" element={<Cart />} />
-        {/* Product listing page */}
+        {/* Product listing page :*/}
         <Route path="/products" element={<Products />} />
         {/* Product detail page */}
         <Route path="/product/:id" element={<ProductDetail />} />
